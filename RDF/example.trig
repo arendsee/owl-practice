@@ -1,0 +1,10 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix csi: <http://www.cambridgesemantics.com/> .
+@prefix csipeople: <http://www.cambridgesemantics.com/people/about/>
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <http://www.cambridgesemantics.com/semantic-university> .
+
+:RobGraph {
+csipeople:rob foaf:name “Rob Gonzalez”^^xsd:string .
+csipeople:rob foaf:member csi: .
+}
