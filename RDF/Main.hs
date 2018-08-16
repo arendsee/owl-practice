@@ -10,8 +10,6 @@
 -- Incidentally, the author of this blog, Mark Watson, seems like a pretty
 -- legit fellow.
 
-module Sparql2 where
-
 import Database.HSparql.Connection
 import Database.HSparql.QueryGenerator
 
