@@ -17,3 +17,13 @@ Now you can go to port 3030 to view (http://localhost:3030/).
 In the browser, turtle files can be uploaded. Note that they must have the
 extension `.ttl`. When I tried uploading one with the extension `.turtle`,
 I received the unhelpful error, "Content is not allowed in Prolog".
+
+The Jena documentation for OWL inference seems pretty incomplete, but I found
+a blog with some info
+[here](https://christinemdraper.wordpress.com/2017/04/09/getting-started-with-rdf-sparql-jena-fuseki/). I borrowed the `config.ttl` file from there and then start the server as so:
+
+```
+fuseki-server --port=3030 --config=config.ttl --update
+```
+
+But I'm not sure the inference is working.
