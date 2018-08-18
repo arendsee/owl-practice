@@ -59,6 +59,6 @@ f:parentOf rdf:type owl:IrreflexiveProperty .
 
 f:hasAncestor rdf:type owl:TransitiveProperty .
 
-f:hasGrandparent owl:propertyChainAxiom (:hasParent f:hasParent) .
+f:hasGrandparent owl:propertyChainAxiom (f:hasParent f:hasParent) .
 
 f:bob f:hasFather f:bill .
